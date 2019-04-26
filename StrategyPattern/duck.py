@@ -33,8 +33,7 @@ class Duck(metaclass=ABCMeta):
         print("所有的鸭子都可以游泳，即使你是橡皮鸭子")
 
     @abstractmethod
-    def display(self):
-        pass
+    def display(self): pass
 
 
 class MallardDuck(Duck):
