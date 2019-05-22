@@ -50,5 +50,3 @@ class GarageDoorLightOnCommand(Command):
 
     def undo(self):
         self.garage_door.light_off()
-
-
